@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply flex items-center flex-nowrap gap-1 bg-purple px-4 py-2 rounded-md text-white;
+}
