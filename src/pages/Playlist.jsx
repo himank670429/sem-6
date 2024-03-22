@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import data from "../assets/data.json";
+import data from "../assets/data";
 import VideoItem from "../components/VideoItem";
 import {Link} from 'react-router-dom';
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";

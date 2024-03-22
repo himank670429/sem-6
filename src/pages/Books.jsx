@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import data from "../assets/data.json";
+import data from "../assets/data";
 import BookItem from "../components/BookItem";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 function Books() {
