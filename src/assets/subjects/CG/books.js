@@ -2,7 +2,7 @@ export default [
 	{
 		name:
 			"Computer Graphics: Principles and Practice 2nd Edition in C, James D. Foley, Andries van Dam, Steven K. Feiner, John F. Hughes, Pearson Education Asia, 1999.",
-		url: "https://drive.google.com/file/d/1ROdv4cbEy0ipzEb6jA14aV0Qmhx9xGbk/view?usp=drive_link",
+		url: "https://drive.google.com/file/d/1-ALN9x36Rw90epR-vIqwBnwAwwrDlZbe/view?usp=drive_link",
 		image: "/books/CG/book1.JPG",
 	},
 	{

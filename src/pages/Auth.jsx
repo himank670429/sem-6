@@ -45,7 +45,7 @@ export function Login() {
 	);
 }
 
-function LoadingScreen() {
+export function LoadingScreen() {
 	return (
 		<div className="size-full h-screen flex justify-center items-center gap-4 flex-col">
 			<h1 className="text-4xl font-bold">Loading user data....</h1>

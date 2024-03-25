@@ -19,13 +19,13 @@ function SubjectSection({ name, image, syllabus, index, route }) {
 					<BookIcon />
 					guildlines
 				</Link>
-				<Link to={`/notes/${route}`} className="btn">
-					<DescriptionIcon />
-					notes
-				</Link>
 				<Link to={`/book/${route}`} className="btn">
 					<LibraryBooksIcon />
 					books
+				</Link>
+				<Link to={`/notes/${route}`} className="btn">
+					<DescriptionIcon />
+					notes
 				</Link>
 			</div>
 		</section>

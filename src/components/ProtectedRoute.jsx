@@ -1,6 +1,7 @@
 import { Navigate, Outlet } from "react-router-dom";
 import { useUser } from "../context/AuthContext";
 import Header from "./Header";
+import { LoadingScreen } from "../pages/Auth";
 function ProtectedRoute() {
 	const { userInfo, loading, error } = useUser();
 	if (userInfo) {
@@ -11,7 +12,7 @@ function ProtectedRoute() {
 			</>
 		);
 	} else if (loading) {
-		return <p>loading...</p>;
+		return <LoadingScreen />
 	}
 	return <Navigate to="/" />;
 }
