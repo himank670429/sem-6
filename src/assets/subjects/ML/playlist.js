@@ -25,4 +25,30 @@ export default [
 			},
 		],
 	},
+	{
+		name: "Unit - 2",
+		videos: [
+            {
+                topic: 'conditional probablity',
+                video: 'https://youtu.be/ADaxql883-M?si=m5mUGyRIju7BnQY2',
+                publisher: '5 Minutes Engineering',
+                thumbnail: 'https://i.ytimg.com/vi/ADaxql883-M/hqdefault.jpg',
+                time: '8:35'
+              },
+			{
+				topic: "Naive bayes theorem",
+				video: "https://youtu.be/Fv_LGQKgWi0?si=CgMN396tYhsV4d7n",
+				publisher: "5 Minutes Engineering",
+				thumbnail: "https://i.ytimg.com/vi/Fv_LGQKgWi0/hqdefault.jpg",
+				time: "11:08",
+			},
+			{
+				topic: "Naive bayes classifier",
+				video: "https://youtu.be/mzPHmNm_NrM?si=qqE6ZYYLCiX7mPnF",
+				publisher: "5 Minutes Engineering",
+				thumbnail: "https://i.ytimg.com/vi/mzPHmNm_NrM/hqdefault.jpg",
+				time: "10:47",
+			},
+		],
+	},
 ];
