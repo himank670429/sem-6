@@ -15,7 +15,7 @@ function App() {
 		if (!userInfo && !loading) {
 			navigate("/login");
 		}
-	}, [userInfo, loading]);
+	}, [userInfo, loading, navigate]);
 
 	return (
 		<>

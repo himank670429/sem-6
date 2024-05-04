@@ -1,7 +1,7 @@
 import data from "../assets/data";
 import SubjectSection from "../components/SubjectSection";
 function Home() {
-	
+
 	return (
 		<>
 			{data.subjects.map((item, index) => (

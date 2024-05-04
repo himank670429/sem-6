@@ -14,6 +14,6 @@ function ProtectedRoute() {
 	} else if (loading) {
 		return <LoadingScreen />
 	}
-	return <Navigate to="/" />;
+	return <Navigate to="/login" />;
 }
 export default ProtectedRoute;

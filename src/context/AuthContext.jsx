@@ -16,7 +16,6 @@ export default function AuthProvider({ children }) {
 			});
 		}
 	}, [user]);
-
 	return (
 		<AuthContext.Provider value={{ userInfo, loading, error }}>
 			{children}

@@ -28,7 +28,7 @@ export default {
 			image: "/subjects/ML.png",
 			route: "ML",
 			syllabus:
-				"https://drive.google.com/file/d/1LcWf2fabTOqLIIRTdvNLAdosTgMgslOS/view?usp=drive_link",
+				"https://drive.google.com/file/d/1FqiT59x_RUMpVe1L423fKvMWWQjY89T-/view?usp=drive_link",
 			books: subjects.ML.books,
 			playlist: subjects.ML.playlist,
 			PYQS: subjects.ML.PYQS,
