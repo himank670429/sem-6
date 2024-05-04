@@ -4,16 +4,27 @@ import Header from "./Header";
 import { LoadingScreen } from "../pages/Auth";
 function ProtectedRoute() {
 	const { userInfo, loading, error } = useUser();
-	if (userInfo) {
+
+	if (import.meta.env.MODE === "production") {
+		if (userInfo) {
+			return (
+				<>
+					<Header />
+					<Outlet />
+				</>
+			);
+		} else if (loading) {
+			return <LoadingScreen />;
+		}
+		alert('asdad')
+		return <Navigate to="/login" />;
+	} else {
 		return (
 			<>
 				<Header />
 				<Outlet />
 			</>
 		);
-	} else if (loading) {
-		return <LoadingScreen />
 	}
-	return <Navigate to="/login" />;
 }
 export default ProtectedRoute;

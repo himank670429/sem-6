@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Books from "./pages/Books";
 import Playlist from "./pages/Playlist";
+import PYQ from "./pages/PYQS";
 import { Login } from "./pages/Auth";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { useEffect } from "react";
@@ -12,7 +13,7 @@ function App() {
 	const { userInfo, loading, error } = useUser();
 	const navigate = useNavigate();
 	useEffect(() => {
-		if (!userInfo && !loading) {
+		if (!userInfo && !loading && import.meta.env === 'production') {
 			navigate("/login");
 		}
 	}, [userInfo, loading, navigate]);
@@ -25,6 +26,7 @@ function App() {
 					<Route element={<Home />} path="/" />
 					<Route element={<Books />} path="/book/:id" />
 					<Route element={<Playlist />} path="/playlist/:id" />
+					<Route element={<PYQ />} path="/PYQS/:id" />
 				</Route>
 			</Routes>
 		</>
