@@ -16,7 +16,6 @@ function ProtectedRoute() {
 		} else if (loading) {
 			return <LoadingScreen />;
 		}
-		alert('asdad')
 		return <Navigate to="/login" />;
 	} else {
 		return (
