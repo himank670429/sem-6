@@ -8,11 +8,11 @@ function Header() {
 	const [signOut, signOutLoading, signOutError] = useSignOut(auth);
 	const { userInfo } = useUser();
 	return (
-		<header className="w-full flex border-b-2 border-light-100 py-4 px-4 gap-8 items-center my-4">
-			<img className="h-[60px]" src="/icon.png" />
+		<header className="w-full flex border-b-2 border-light-100 p-4 gap-4 items-center my-4">
+			<img className="h-[50px] md:h-[55px] lg:h-[60px]" src="/icon.png" />
 			<div className="flex flex-col">
-				<h1 className="text-4xl font-bold">{"Sem-6"}</h1>
-				<h1 className="text-xl font-bold">{"BSc (Hons.) CS Hons"}</h1>
+				<h1 className="text-base md:text-lg lg:text-xl font-bold">{"Sem-6"}</h1>
+				<h1 className="text-xs md:text-sm lg:text-base font-bold">{"BSc (Hons.) CS Hons"}</h1>
 			</div>
 			<div className="ml-auto flex items-center gap-4">
 				<img className="size-[40px] rounded-full" src={userInfo?.image} />
@@ -26,7 +26,9 @@ function Header() {
 					className="btn self-center"
 				>
 					<LogoutIcon />
-					logout
+					<span className="hidden md:inline">
+						logout
+					</span>
 				</button>
 			</div>
 		</header>

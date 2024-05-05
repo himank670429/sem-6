@@ -7,7 +7,7 @@ function Playlist() {
 	const { id } = useParams();
 	let playlist = data.subjects.filter((item) => item.route === id)[0].playlist;
 	return (
-		<div className="px-8 flex flex-col gap-4">
+		<div className="px-2 sm:px-4 md:py-8 flex flex-col gap-4">
 			<Link className="btn w-fit" to="/">
 				<ArrowBackIcon />
 				back
