@@ -215,6 +215,27 @@ export default [
 				thumbnail : "https://i.ytimg.com/vi/83E3g9a4Psg/hqdefault.jpg",
 				time : "12:33"
 			},
+			{
+				topic : "SVM - support vector machine",
+				video : "https://youtu.be/xLkk6MUrvrw?si=Z61Bg1al3K4aLXKh",
+				publisher : "5 Minute Engineering",
+				thumbnail : "https://i.ytimg.com/vi/xLkk6MUrvrw/hqdefault.jpg",
+				time : "7:46"
+			},
+			{
+				topic : "SVM (part 2)",
+				video : "https://youtu.be/0MJTaPoHv-g?si=CIsKWoVcw5P4bPQg",
+				publisher : "5 Minute Engineering",
+				thumbnail : "https://i.ytimg.com/vi/0MJTaPoHv-g/hqdefault.jpg",
+				time : "7:19"
+			},
+			{
+				topic : "Non Linear SVM and Kernel function",
+				video : "https://youtu.be/owsAQ_fiwIw?si=ZYehuzqiJYBLTzbt",
+				publisher : "5 Minute Engineering",
+				thumbnail : "https://i.ytimg.com/vi/owsAQ_fiwIw/hqdefault.jpg",
+				time : "6:26"
+			},
 		]
 	}
 ];
