@@ -170,4 +170,51 @@ export default [
 			},
 		],
 	},
+	{
+		name : "unit - 7",
+		videos : [
+			{
+				topic : "Artificial neural network",
+				video : "https://youtu.be/8eaORgKmmh4?si=dfSFetMrBELzfCYG",
+				publisher : "5 Minute Engineering",
+				thumbnail : "https://i.ytimg.com/vi/8eaORgKmmh4/maxresdefault.jpg",
+				time : "4:58"
+			},
+			{
+				topic : "Activation function (part - 1)",
+				video : "https://youtu.be/K3c2QytXqwU?si=rFQZodbovwV1-XMP",
+				publisher : "5 Minute Engineering",
+				thumbnail : "https://i.ytimg.com/vi/K3c2QytXqwU/hqdefault.jpg",
+				time : "5:10"
+			},
+			{
+				topic : "Activation function (part - 2)",
+				video : "https://youtu.be/lJ4_tvwIVg8?si=PiT6OyVLb2holFAh",
+				publisher : "5 Minute Engineering",
+				thumbnail : "https://i.ytimg.com/vi/lJ4_tvwIVg8/hqdefault.jpg",
+				time : "8:46"
+			},
+			{
+				topic : "Perceptron",
+				video : "https://youtu.be/FKJeFvDgyTA?si=CenfNSiWh5g11C6R",
+				publisher : "Krish Nayik",
+				thumbnail : "https://i.ytimg.com/vi/FKJeFvDgyTA/hqdefault.jpg",
+				time : "22:55"
+			},
+			{
+				topic : "Multi layered nueral network",
+				video : "https://youtu.be/FKJeFvDgyTA?si=CenfNSiWh5g11C6R",
+				publisher : "Krish Nayik",
+				thumbnail : "https://i.ytimg.com/vi/6B9kPHXlcQQ/hqdefault.jpg",
+				time : "14:35"
+			},
+			{
+				topic : "back propogation",
+				video : "https://youtu.be/83E3g9a4Psg?si=eIaYpnumQPE3CIq1",
+				publisher : "Krish Nayik",
+				thumbnail : "https://i.ytimg.com/vi/83E3g9a4Psg/hqdefault.jpg",
+				time : "12:33"
+			},
+		]
+	}
 ];
