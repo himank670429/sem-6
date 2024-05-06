@@ -3,11 +3,13 @@ import data from "../assets/data";
 import VideoItem from "../components/VideoItem";
 import { Link } from "react-router-dom";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import {NotificationMessage} from '../components/Message';
 function Playlist() {
 	const { id } = useParams();
 	let playlist = data.subjects.filter((item) => item.route === id)[0].playlist;
 	return (
 		<div className="px-2 sm:px-4 md:py-8 flex flex-col gap-4">
+			<NotificationMessage msg={"added videos to unit2, unit-3 added"} />
 			<Link className="btn w-fit" to="/">
 				<ArrowBackIcon />
 				back

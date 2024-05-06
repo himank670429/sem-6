@@ -28,13 +28,13 @@ export default [
 	{
 		name: "Unit - 2",
 		videos: [
-            {
-                topic: 'conditional probablity',
-                video: 'https://youtu.be/ADaxql883-M?si=m5mUGyRIju7BnQY2',
-                publisher: '5 Minutes Engineering',
-                thumbnail: 'https://i.ytimg.com/vi/ADaxql883-M/hqdefault.jpg',
-                time: '8:35'
-              },
+			{
+				topic: "conditional probablity",
+				video: "https://youtu.be/ADaxql883-M?si=m5mUGyRIju7BnQY2",
+				publisher: "5 Minutes Engineering",
+				thumbnail: "https://i.ytimg.com/vi/ADaxql883-M/hqdefault.jpg",
+				time: "8:35",
+			},
 			{
 				topic: "Naive bayes theorem",
 				video: "https://youtu.be/Fv_LGQKgWi0?si=CgMN396tYhsV4d7n",
@@ -54,7 +54,48 @@ export default [
 	{
 		name: "Unit - 3",
 		videos: [
-            
+			{
+				topic : "Curse of dimentionality",
+				video : "https://youtu.be/SMaa3pnQmbg?si=f_Rx1cDs4ZjZtcTV",
+				publisher : "5 Minutes Engineering",
+				thumbnail : "https://i.ytimg.com/vi/SMaa3pnQmbg/hqdefault.jpg",
+				time : "11:45",
+			},
+			{
+				topic : "different types of feature enginnering",
+				video : "https://youtu.be/OTPz5plKb40?si=t9KewaHqqImJXUIU",
+				publisher : "krish naik",
+				thumbnail : "https://i.ytimg.com/vi/OTPz5plKb40/maxresdefault.jpg",
+				time : "24:07",
+			},
+			{
+				topic : "what is feature scaling",
+				video : "https://youtu.be/nmBqnKSSKfM?si=LMDMM5zmCFnbkZCK",
+				publisher : "krish naik",
+				thumbnail : "https://i.ytimg.com/vi/nmBqnKSSKfM/hqdefault.jpg",
+				time : "8:00",
+			},
+			{
+				topic : "feature normalization",
+				video : "https://youtu.be/mnKm3YP56PY?si=NzAYRFt6PIHoTgoe",
+				publisher : "krish naik",
+				thumbnail : "https://i.ytimg.com/vi/mnKm3YP56PY/hqdefault.jpg",
+				time : "12:51",
+			},
+			{
+				topic : "why we need feature normalization",
+				video : "https://youtu.be/s9e2A04lmXI?si=M7S6KMHuRywpG1Ws",
+				publisher : "krish naik",
+				thumbnail : "https://i.ytimg.com/vi/s9e2A04lmXI/hqdefault.jpg",
+				time : "7:37",
+			},
+			{
+				topic : "how to handle missing value in categorical features",
+				video : "https://youtu.be/q-DyjA8ZmYM?si=F2FaQ-Q0fwmYFecQ",
+				publisher : "krish naik",
+				thumbnail : "https://i.ytimg.com/vi/q-DyjA8ZmYM/maxresdefault.jpg",
+				time : "6:21",
+			},
 		],
 	},
 ];
