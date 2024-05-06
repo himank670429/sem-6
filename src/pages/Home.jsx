@@ -5,7 +5,7 @@ function Home() {
 	return (
 		<>
 			<WarningMessage msg={"The playlist is incomplete and is constanly being updated by Himank. Thanks :)"}/>
-			<NotificationMessage msg={"new videos added to ML"} />
+			<NotificationMessage msg={"ML playlist is completed :)"} />
 			{data.subjects.map((item, index) => (
 				<SubjectSection {...item} key={index} index={index + 1} />
 			))}

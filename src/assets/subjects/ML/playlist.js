@@ -285,5 +285,99 @@ export default [
 				time : "7:47"
 			}
 		]
+	},
+	{
+		name : "unit - 9 performance evaluation metrics",
+		videos : [
+			{
+				topic : "confusion matrix, accuracy, precision, recal and f1-score",
+				video : "https://youtu.be/5vqk6HnITko?si=fZr3zH6WZsBiFh0i",
+				publisher : "Krish Nayik",
+				thumbnail : "https://i.ytimg.com/vi/5vqk6HnITko/maxresdefault.jpg",
+				time : "23:34"
+			},
+			{
+				topic : "specificity and senstivity",
+				video : "https://youtu.be/TRIEE7oB3ws?si=JR3bCEKyQtUFajRO",
+				publisher : "5 Minute Engineering",
+				thumbnail : "https://i.ytimg.com/vi/TRIEE7oB3ws/hqdefault.jpg",
+				time : "6:44"
+			},
+			{
+				topic : "ROC and AUC",
+				video : "https://youtu.be/4jRBRDbJemM?si=eZb9WnLLgKuHQvde",
+				publisher : "StatQuest with Josh",
+				thumbnail : "https://i.ytimg.com/vi/4jRBRDbJemM/maxresdefault.jpg",
+				time : "16:16"
+			},
+			{
+				topic : "Log Loss",
+				video : "https://youtu.be/MztgenIfGgM?si=B72b9nT4SvcxiBNh",
+				publisher : "Bhavesh Bhatt",
+				thumbnail : "https://i.ytimg.com/vi/MztgenIfGgM/maxresdefault.jpg",
+				time : "8:41"
+			},
+			{
+				topic : "Jaccard index",
+				video : "https://youtu.be/kDD7uSaTRjA?si=Gbto7QbieqLg2CjQ",
+				publisher : "perfect computer enginner",
+				thumbnail : "https://i.ytimg.com/vi/kDD7uSaTRjA/maxresdefault.jpg",
+				time : "3:48"
+			},
+			{
+				topic : "Kolmogorov-Smirnov Chart (K-S Chart)",
+				video : "https://youtu.be/hNs9o5qiY8U?si=y2XZiydNE3CyNNUw",
+				publisher : "Noureddin Sadawi",
+				thumbnail : "https://i.ytimg.com/vi/hNs9o5qiY8U/hqdefault.jpg",
+				time : "9:46"
+			},
+			{
+				topic : "Gain and Lift chart",
+				video : "https://youtu.be/1dYOcDaDJLY?si=zlmasya4k6NPLgIe",
+				publisher : "Noureddin Sadawi",
+				thumbnail : "https://i.ytimg.com/vi/1dYOcDaDJLY/hqdefault.jpg",
+				time : "14:12"
+			}
+		],
+	},
+	{
+		name : "unit - 10 Validation and its type",
+		videos : [
+			{
+				topic : "Intro to cross validation",
+				video : "https://youtu.be/v6DtYYafrWQ?si=uhOLYBI_0WKgk1SU",
+				publisher : "Gate Smashers",
+				thumbnail : "https://i.ytimg.com/vi/v6DtYYafrWQ/maxresdefault.jpg",
+				time : "6:50"
+			},
+			{
+				topic : "Hold Out Method",
+				video : "https://youtu.be/Mu8Ubp258QI?si=blwVEysE4ba6lZnY",
+				publisher : "5 Minute Engineering",
+				thumbnail : "https://i.ytimg.com/vi/Mu8Ubp258QI/hqdefault.jpg",
+				time : "8:03"
+			},
+			{
+				topic : "K-Fold, Stratified K-Fold, Leave-one-out method",
+				video : "https://youtu.be/PF2wLKv2lsI?si=1XGBySgs9_WSAqjN",
+				publisher : "Mahesh Huddar",
+				thumbnail : "https://i.ytimg.com/vi/PF2wLKv2lsI/hqdefault.jpg",
+				time : "9:13"
+			},
+			{
+				topic : "K-Fold cross vaidation",
+				video : "https://youtu.be/poKFir0QGCI?si=sJ1tjRZ_mRUQZtwL",
+				publisher : "5 Minute Engineering",
+				thumbnail : "https://i.ytimg.com/vi/poKFir0QGCI/hqdefault.jpg",
+				time : "6:09"
+			},
+			{
+				topic : "Leave One Out Cross Validation",
+				video : "https://youtu.be/BgYogUmdXaE?si=N8LmHwOTuBmz6SPW",
+				publisher : "DataMites",
+				thumbnail : "https://i.ytimg.com/vi/BgYogUmdXaE/maxresdefault.jpg",
+				time : "5:14"
+			}
+		]
 	}
 ];
