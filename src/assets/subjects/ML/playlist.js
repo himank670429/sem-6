@@ -1,6 +1,6 @@
 export default [
 	{
-		name: "Unit - 1",
+		name: "Unit - 1 Introduction to machine learning",
 		videos: [
 			{
 				topic: "Introduction to machine learning",
@@ -26,7 +26,7 @@ export default [
 		],
 	},
 	{
-		name: "Unit - 2",
+		name: "Unit - 2 probality based model",
 		videos: [
 			{
 				topic: "conditional probablity",
@@ -52,7 +52,7 @@ export default [
 		],
 	},
 	{
-		name: "Unit - 3",
+		name: "Unit - 3 dimentionality and features",
 		videos: [
 			{
 				topic: "Curse of dimentionality",
@@ -99,7 +99,7 @@ export default [
 		],
 	},
 	{
-		name: "Unit 4",
+		name: "Unit 4 regression models",
 		videos: [
 			{
 				topic: "linear regression",
@@ -133,7 +133,7 @@ export default [
 		],
 	},
 	{
-		name: "unit - 5",
+		name: "unit - 5 descision tree classifier",
 		videos: [
 			{
 				topic: "Descision Tree (part-1)",
@@ -152,7 +152,7 @@ export default [
 		],
 	},
 	{
-		name: "unit - 6",
+		name: "unit - 6 KNN Classifer",
 		videos: [
 			{
 				topic: "K-Nearest Neightbours",
@@ -171,7 +171,7 @@ export default [
 		],
 	},
 	{
-		name : "unit - 7",
+		name : "unit - 7 Artificial nueral network and SVM",
 		videos : [
 			{
 				topic : "Artificial neural network",
@@ -236,6 +236,54 @@ export default [
 				thumbnail : "https://i.ytimg.com/vi/owsAQ_fiwIw/hqdefault.jpg",
 				time : "6:26"
 			},
+		]
+	},
+	{
+		name : "Unit -8 clustering",
+		videos : [
+			{
+				topic : "Introduction to clustering",
+				video : "https://youtu.be/BMkkrQdsMhQ?si=uu0IufEu3vIx_tgR",
+				publisher : "Perfect Computer Engineer",
+				thumbnail : "https://i.ytimg.com/vi/BMkkrQdsMhQ/maxresdefault.jpg",
+				time : "6:21"
+			},
+			{
+				topic : "Distance Metrics",
+				video : "https://youtu.be/DUKfr4iLKq4?si=xRXbpDeMuq9ByH84",
+				publisher : "CS & IT Tutorials",
+				thumbnail : "https://i.ytimg.com/vi/DUKfr4iLKq4/maxresdefault.jpg",
+				time : "9:25"
+
+			},
+			{	
+				topic : "K Means Clustering",
+				video : "https://youtu.be/CLKW6uWJtTc?si=Ln4jc7hyoedjlVlT",
+				publisher : "5 Minute Engineering",
+				thumbnail : "https://i.ytimg.com/vi/CLKW6uWJtTc/hqdefault.jpg",
+				time : "7:24"
+			},
+			{	
+				topic : "Heirarchichal clustering",
+				video : "https://youtu.be/7enWesSofhg?si=kP_vMddKTIN3-qbd",
+				publisher : "5 Minute Engineering",
+				thumbnail : "https://i.ytimg.com/vi/7enWesSofhg/hqdefault.jpg",
+				time : "7:10"
+			},
+			{	
+				topic : "Algomerative clustering",
+				video : "https://youtu.be/EFhcDnw7RGY?si=NKkIM6D0ooaUQFWI",
+				publisher : "5 Minute Engineering",
+				thumbnail : "https://i.ytimg.com/vi/EFhcDnw7RGY/hqdefault.jpg",
+				time : "11:19"
+			},
+			{
+				topic : "Algomerative clustering (part 2)",
+				video : "https://youtu.be/G_Ob1k28ZJo?si=2vFTeWsnmL0hvbXs",
+				publisher : "5 Minute Engineering",
+				thumbnail : "https://i.ytimg.com/vi/G_Ob1k28ZJo/hqdefault.jpg",
+				time : "7:47"
+			}
 		]
 	}
 ];
