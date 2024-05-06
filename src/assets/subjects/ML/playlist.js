@@ -98,4 +98,36 @@ export default [
 			},
 		],
 	},
+	{name : "Unit 4",
+		videos : [
+			{
+				topic : "linear regression",
+				video : "https://youtu.be/a22OPjS-4Lc?si=Z4XVJijhV59fETdL",
+				publisher : "krish naik",
+				thumbnail : "https://i.ytimg.com/vi/a22OPjS-4Lc/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLAEwagP_W7pn4GnPnGGwqM2MJTlbg",
+				time : "1:05:16",
+			},
+			{
+				topic : "gradient descent",
+				video : "https://youtu.be/sDv4f4s2SB8?si=JnbzeCQvHaQz-3J7",
+				publisher : "StatQuest with josh Stramer",
+				thumbnail : "https://i.ytimg.com/vi/sDv4f4s2SB8/maxresdefault.jpg",
+				time : "23:53",
+			},
+			{
+				topic : "logistic regression",
+				video : "https://youtu.be/VImxF-9jk1E?si=hs7B_SwCjb3YZ_XL",
+				publisher : "5 Minute Engineering",
+				thumbnail : "https://i.ytimg.com/vi/VImxF-9jk1E/hqdefault.jpg",
+				time : "11:45",
+			},
+			{
+				topic : "overfitting vs underfitting",
+				video : "https://youtu.be/ICCA3-7a5bw?si=QpAzHg4DJCnPzUit",
+				publisher : "5 Minute Engineering",
+				thumbnail : "https://i.ytimg.com/vi/ICCA3-7a5bw/hqdefault.jpg",
+				time : "9:15",
+			},
+		]
+	}
 ];
