@@ -12,16 +12,16 @@ export function Login() {
 	}
 	return (
 		<div className="size-full h-screen flex justify-center items-center gap-4 flex-col">
-			<div className="bg-dark-100 p-8 rounded-xl gap-8 flex flex-col w-[700px] shadow my-auto">
-				<h1 className="text-4xl text-center">Welcome to sem-6,</h1>
-				<p className="text-2xl text-center">
+			<div className="bg-dark-100 p-8 rounded-xl gap-8 flex flex-col mx-4 shadow my-auto">
+				<h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center">Welcome to sem-6,</h1>
+				<p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-center">
 					this website will give you all the academic resource you need for semester
 					6.
 				</p>
-				<p className="text-xl text-center">Login with Google to continue</p>
+				<p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-center">Login with Google to continue</p>
 				<button
 					onClick={handleLogin}
-					className="btn self-center text-lg font-semibold"
+					className="btn text-sm sm:text-lg md:text-xl lg:text-2xl self-center font-semibold"
 				>
 					login with
 					<GoogleIcon />
