@@ -1,12 +1,12 @@
 import { Navigate, Outlet } from "react-router-dom";
-import { useUser } from "../context/AuthContext";
+import { useAuth } from "../context/AuthContext";
 import Header from "./Header";
 import { LoadingScreen } from "../pages/Auth";
 function ProtectedRoute() {
-	const { userInfo, loading, error } = useUser();
+	const { currentUser, loading } = useAuth();
 
 	if (import.meta.env.MODE === "production") {
-		if (userInfo) {
+		if (currentUser) {
 			return (
 				<>
 					<Header />

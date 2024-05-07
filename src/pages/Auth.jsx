@@ -1,19 +1,14 @@
-import { useSignInWithGoogle } from "react-firebase-hooks/auth";
-import { auth } from "../firebase/init";
-import { useNavigate } from "react-router-dom";
+import { doSignInWithGoogle } from "../utils/auth";
+import { useAuth } from "../context/AuthContext";
+import { Navigate} from "react-router-dom";
 import GoogleIcon from "@mui/icons-material/Google";
 export function Login() {
-	const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
-	const navigate = useNavigate();
+	const { userLoggenIn } = useAuth();
 	async function handleLogin() {
-		signInWithGoogle();
+		await doSignInWithGoogle();
 	}
-	if (user) {
-		navigate("/");
-	}
-
-	if (loading) {
-		return <LoadingScreen />;
+	if (userLoggenIn) {
+		return <Navigate to="/"/>;
 	}
 	return (
 		<div className="size-full h-screen flex justify-center items-center gap-4 flex-col">

@@ -5,19 +5,8 @@ import Playlist from "./pages/Playlist";
 import PYQ from "./pages/PYQS";
 import { Login } from "./pages/Auth";
 import ProtectedRoute from "./components/ProtectedRoute";
-import { useEffect } from "react";
-import { useUser } from "./context/AuthContext";
-import { useNavigate } from "react-router-dom";
 
 function App() {
-	const { userInfo, loading, error } = useUser();
-	const navigate = useNavigate();
-	useEffect(() => {
-		if (!userInfo && !loading && import.meta.env === 'production') {
-			navigate("/login");
-		}
-	}, [userInfo, loading, navigate]);
-
 	return (
 		<>
 			<Routes>
