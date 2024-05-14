@@ -15,7 +15,7 @@ function Header() {
 				</h1>
 			</div>
 			<div className="ml-auto flex items-center gap-4">
-				<img className="size-[40px] rounded-full" src={currentUser.photoURL} />
+				<img className="size-[40px] rounded-full" src={currentUser?.photoURL} />
 				<button
 					onClick={async () => {
 						doSignOut();
