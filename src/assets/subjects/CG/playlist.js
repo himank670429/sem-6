@@ -426,23 +426,91 @@ export default [
 			},
 		]
 	},
-	// {
-	// 	name : "Unit-6 Visible Surface determination",
-	// 	videos : [
-	// 		{
-	// 			topic : "Z-buffer buffer",
-	// 			video : "https://youtu.be/FqDNXXgS5dw?si=LAmRr5IIzxUq6iVw",
-	// 			thumbnail : "https://i.ytimg.com/vi/FqDNXXgS5dw/maxresdefault.jpg",
-	// 			publisher : "Education 4 u",
-	// 			time : "11:22",
-	// 		},
-	// 		// {
-	// 		// 	topic : "",
-	// 		// 	video : "",
-	// 		// 	thumbnail : "",
-	// 		// 	publisher : "",
-	// 		// 	time : "",
-	// 		// },
-	// 	]
-	// }
+	{
+		name : "Unit-6 Visible Surface determination",
+		videos : [
+			{
+				topic : "Z-buffer buffer",
+				video : "https://youtu.be/FqDNXXgS5dw?si=LAmRr5IIzxUq6iVw",
+				thumbnail : "https://i.ytimg.com/vi/FqDNXXgS5dw/maxresdefault.jpg",
+				publisher : "Education 4 u",
+				time : "11:22",
+			},
+			{
+				topic : "Depth sort algorithm",
+				video : "https://youtu.be/w-22JtCQ1Wg?si=q-xweOHZ6ivFpARB",
+				thumbnail : "https://i.ytimg.com/vi/w-22JtCQ1Wg/maxresdefault.jpg",
+				publisher : "Online Computers",
+				time : "22:14",
+			},
+			{
+				topic : "Area subdivision aglorithms",
+				video : "https://youtu.be/iwSVKBAAjk4?si=LL-IPD-F6Fn_ejxP",
+				thumbnail : "https://i.ytimg.com/vi/iwSVKBAAjk4/maxresdefault.jpg",
+				publisher : "Online Computers",
+				time : "14:42",
+			},
+		]
+	},
+	{
+		name : "Unit-7 Surface Rendering",
+		videos : [
+			{
+				topic : "illumination model",
+				video : "https://youtu.be/vMsjhletTzo?si=KPsQER1leMqXlDag",
+				thumbnail : "https://i.ytimg.com/vi/vMsjhletTzo/maxresdefault.jpg",
+				publisher : "Education 4 u",
+				time : "6:49",
+			},
+			{
+				topic : "Ambient Light",
+				video : "https://youtu.be/c7TK2Iub3kk?si=DjsLPaDPUjAKxyga",
+				thumbnail : "https://i.ytimg.com/vi/c7TK2Iub3kk/maxresdefault.jpg",
+				publisher : "Education 4 u",
+				time : "11:27",
+			},
+			{
+				topic : "diffuse reflection",
+				video : "https://youtu.be/l_AB5e-85E0?si=m5QG-ZIn0XKH_Poj",
+				thumbnail : "https://i.ytimg.com/vi/l_AB5e-85E0/hqdefault.jpg",
+				publisher : "Education 4 u",
+				time : "11:27",
+			},
+			{
+				topic : "specular refelction",
+				video : "https://youtu.be/xJMxkXVrwyg?si=L2L6m-qJkHdN6-qq",
+				thumbnail : "https://i.ytimg.com/vi/xJMxkXVrwyg/maxresdefault.jpg",
+				publisher : "Education 4 u",
+				time : "10:58",
+			},
+			{
+				topic : "Phong model",
+				video : "https://youtu.be/L_jBLT43Mo4?si=ndm09s6n8PZ8GH_K",
+				thumbnail : "https://i.ytimg.com/vi/L_jBLT43Mo4/maxresdefault.jpg",
+				publisher : "Shaikh Nikhat",
+				time : "6:26",
+			},
+			{
+				topic : "combined diffused and specular reflection",
+				video : "https://youtu.be/u0yrONGacdw?si=LnF-EvCdiDlP_MeJ",
+				thumbnail : "https://i.ytimg.com/vi/u0yrONGacdw/hqdefault.jpg",
+				publisher : "Rashmi Tundalwar",
+				time : "5:55",
+			},
+			{
+				topic : "warm model",
+				video : "https://youtu.be/-kAq_YuwPgk?si=63L-VaxZVCoUj_G3",
+				thumbnail : "https://i.ytimg.com/vi/-kAq_YuwPgk/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AGUA4AC0AWKAgwIABABGGUgRShEMA8=&rs=AOn4CLBwpL4R3x8pwsjfXyNygmcmm20X5Q",
+				publisher : "Rashmi Tundalwar",
+				time : "3:33",
+			},
+			// {
+			// 	topic : "",
+			// 	video : "",
+			// 	thumbnail : "",
+			// 	publisher : "",
+			// 	time : "",
+			// },
+		]
+	}
 ];
