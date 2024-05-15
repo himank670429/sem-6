@@ -379,15 +379,69 @@ export default [
 			},
 		],
 	},
+	{
+		name : "Unit-5 Geometric Modeling",
+		videos : [
+			{
+				topic : "Polygon Mesh",
+				video : "https://youtu.be/Yt0uULat1YU?si=2KjeW5z9Vkguv5v2",
+				thumbnail : "https://i.ytimg.com/vi/Yt0uULat1YU/maxresdefault.jpg",
+				publisher : "ritika xRay Pixy",
+				time : "5:01"
+			},
+			{
+				topic : "Polygon Surfaces 3D Object Representation in Computer Graphics",
+				video : "https://youtu.be/TfnEtDjlTQo?si=hMc8qYHFc7NifSZU",
+				thumbnail : "https://i.ytimg.com/vi/TfnEtDjlTQo/maxresdefault.jpg",
+				publisher : "Online Computers",
+				time : "9:52",
+			},
+			{
+				topic : "Parametric Curve",
+				video : "https://youtu.be/5PMkHqlaP88?si=Rf2NIrbUifKP-xbX",
+				thumbnail : "https://i.ytimg.com/vi/5PMkHqlaP88/hqdefault.jpg",
+				publisher : "5 Minute Enginnering",
+				time : "10:23",
+			},
+			{
+				topic : "Hermit Curve",
+				video : "https://youtu.be/jqbr39dhyWQ?si=qz1k3vNyYGBD9waI",
+				thumbnail : "https://i.ytimg.com/vi/jqbr39dhyWQ/maxresdefault.jpg",
+				publisher : "AllAboutCSIT",
+				time : "12:35",
+			},
+			{
+				topic : "Bezier Curve",
+				video : "https://youtu.be/BRU_82hM06Y?si=UgSdYgsNv-irk992",
+				thumbnail : "https://i.ytimg.com/vi/BRU_82hM06Y/maxresdefault.jpg",
+				publisher : "Education 4 u",
+				time : "10:28",
+			},
+			{
+				topic : "Bezier Curve Properties",
+				video : "https://youtu.be/TMub68iLqLs?si=jYpSGb5maUhKIUUD",
+				thumbnail : "https://i.ytimg.com/vi/TMub68iLqLs/maxresdefault.jpg",
+				publisher : "Education 4 u",
+				time : "5:58",
+			},
+		]
+	},
 	// {
-	// 	name : "Unit-5 Geometric Modeling",
+	// 	name : "Unit-6 Visible Surface determination",
 	// 	videos : [
+	// 		{
+	// 			topic : "Z-buffer buffer",
+	// 			video : "https://youtu.be/FqDNXXgS5dw?si=LAmRr5IIzxUq6iVw",
+	// 			thumbnail : "https://i.ytimg.com/vi/FqDNXXgS5dw/maxresdefault.jpg",
+	// 			publisher : "Education 4 u",
+	// 			time : "11:22",
+	// 		},
 	// 		// {
-	// 		// 	topic : "Polygon Mesh",
-	// 		// 	video : "https://youtu.be/Yt0uULat1YU?si=2KjeW5z9Vkguv5v2",
-	// 		// 	thumbnail : "https://i.ytimg.com/vi/Yt0uULat1YU/maxresdefault.jpg",
-	// 		// 	publisher : "ritika xRay Pixy",
-	// 		// 	time : "5:01"
+	// 		// 	topic : "",
+	// 		// 	video : "",
+	// 		// 	thumbnail : "",
+	// 		// 	publisher : "",
+	// 		// 	time : "",
 	// 		// },
 	// 	]
 	// }
