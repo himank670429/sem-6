@@ -456,6 +456,13 @@ export default [
 		name : "Unit-7 Surface Rendering",
 		videos : [
 			{
+				topic : "Light Source",
+				video : "https://youtu.be/o1hHlAsNH_0?si=8FnIfgT_cu9Gvzzq",
+				thumbnail : "https://i.ytimg.com/vi/o1hHlAsNH_0/hqdefault.jpg",
+				publisher : "Kartheek",
+				time : "24:58"
+			},
+			{
 				topic : "illumination model",
 				video : "https://youtu.be/vMsjhletTzo?si=KPsQER1leMqXlDag",
 				thumbnail : "https://i.ytimg.com/vi/vMsjhletTzo/maxresdefault.jpg",
@@ -504,13 +511,55 @@ export default [
 				publisher : "Rashmi Tundalwar",
 				time : "3:33",
 			},
-			// {
-			// 	topic : "",
-			// 	video : "",
-			// 	thumbnail : "",
-			// 	publisher : "",
-			// 	time : "",
-			// },
+			{
+				topic : "Halftone and dethering techniques",
+				video : "https://youtu.be/HhGMdjP4TiA?si=Hrr9qVntkehUfJou",
+				thumbnail : "https://i.ytimg.com/vi/HhGMdjP4TiA/hqdefault.jpg",
+				publisher : "Ekeeda",
+				time : "6:56",
+			},
+			{
+				topic : "polygon rendering methods",
+				video : "https://youtu.be/VrPHSuy5BWM?si=MO4pRLnfqUZGeKen",
+				thumbnail : "https://i.ytimg.com/vi/VrPHSuy5BWM/hqdefault.jpg",
+				publisher : "Ekeeda",
+				time : "5:38",
+			},
+			{
+				topic : "polygon redering methods in detail",
+				video : "https://youtu.be/Jh9QQVGupwc?si=ZlIT8fYW4w8OgZSD",
+				thumbnail : "https://i.ytimg.com/vi/Jh9QQVGupwc/hqdefault.jpg",
+				publisher : "Unacademy CS",
+				time : "7:36",
+			},
+			{
+				topic : "Design a computer Animation",
+				video : "https://youtu.be/O5miwdCWDfE?si=QsyaSed6Q2Z4fDqH",
+				thumbnail : "https://i.ytimg.com/vi/O5miwdCWDfE/maxresdefault.jpg",
+				publisher : "Education 4 u",
+				time : "9:50",
+			},
+			{
+				topic : "general computer animation funnction",
+				video : "https://youtu.be/SlioDbFYRFE?si=yzLTLdlOFJ7ynwK4",
+				thumbnail : "https://i.ytimg.com/vi/SlioDbFYRFE/maxresdefault.jpg",
+				publisher : "PolyTechGuru",
+				time : "8:03",
+			},
+			{
+				topic : "Raster animation",
+				video : "https://youtu.be/heNwA-dBAbc?si=dZGr-ugnqJ3G-UQK",
+				thumbnail : "https://i.ytimg.com/vi/heNwA-dBAbc/hqdefault.jpg",
+				publisher : "PolyTechGuru",
+				time : "16:45",
+			},
+			{
+				topic : "Computer Animation Language",
+				video : "https://youtu.be/yurbHuYWUas?si=Sf8WZnZSSIB4B4Jl",
+				thumbnail : "https://i.ytimg.com/vi/yurbHuYWUas/maxresdefault.jpg",
+				publisher : "PolyTechGuru",
+				time : "14:04",
+			},
 		]
 	}
 ];

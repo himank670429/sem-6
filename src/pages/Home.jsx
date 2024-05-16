@@ -1,6 +1,6 @@
 import data from "../assets/data";
 import SubjectSection from "../components/SubjectSection";
-import { WarningMessage, NotificationMessage } from "../components/Message";
+import { NotificationMessage } from "../components/Message";
 function Home() {
 	return (
 		<>
