@@ -34,7 +34,7 @@ function VideoItem({ name, videos }) {
 							</Link>
 							<div className="flex flex-col justify-center items-start gap-2">
 								<p className="text-xl md:text-2xl lg:text-3xl px-4 text-ellipsis">{item.topic}</p>
-								<p className="text-base px-4 text-light-100">{item.publisher}</p>
+								<p className="text-base px-4 text-light-100 font-semibold">{item.publisher}</p>
 							</div>
 						</div>
 						<Link target="_blank" to={item.video} className="items-center flex-nowrap gap-1 bg-purple px-4 py-2 rounded-md text-white hidden md:flex md:ml-auto md:self-end">

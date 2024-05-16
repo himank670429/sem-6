@@ -11,7 +11,7 @@ export default {
 				},
 				purple: "#6859CB",
 				light: {
-					100: "#3A3C46",
+					100: "#515462",
 					200: "#ABB2BF",
 				},
 			},
