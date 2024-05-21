@@ -9,15 +9,13 @@ function Playlist() {
 	let playlist = data.subjects.filter((item) => item.route === id)[0].playlist;
 	return (
 		<div className="px-2 sm:px-4 md:py-8 flex flex-col gap-4">
-			{id === "CG" ? (
-				<NotificationMessage msg="playlist completed :)" />
-			) : null}
 			{id === "DM" ? (
 				<NotificationMessage msg="unit-2 added" />
 			) : null}
-			{id === "ML" ? (
-				<NotificationMessage msg="playlist completed ;)" />
+			{id === "AI" ? (
+				<NotificationMessage msg="unit-2 & 3 added" />
 			) : null}
+
 			<Link className="btn w-fit" to="/">
 				<ArrowBackIcon />
 				back

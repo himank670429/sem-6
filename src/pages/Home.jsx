@@ -4,7 +4,7 @@ import { NotificationMessage } from "../components/Message";
 function Home() {
 	return (
 		<>
-			<NotificationMessage msg={"never gonna give you up, never gonna let you down."} />
+			<NotificationMessage msg={"AI playlist is being updated, do check it out"} />
 			{data.subjects.map((item, index) => (
 				<SubjectSection {...item} key={index} index={index + 1} />
 			))}
