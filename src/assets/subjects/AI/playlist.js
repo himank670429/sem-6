@@ -1,6 +1,6 @@
 export default [
 	{
-		name: "unit 1",
+		name: "Unit-1",
 		videos: [
 			{
 				topic: "What is AI?",
@@ -223,5 +223,126 @@ export default [
 				time : "9:53",
 			},
 		]
-	}
+	},
+	{
+		name : "Unit-4",
+		videos : [
+			{
+				topic : "Introduction to State Space Search",
+				video : "https://youtu.be/E5jVBqe59EE?si=0wFiaIsUZwV2T6ir",
+				thumbnail : "https://i.ytimg.com/vi/E5jVBqe59EE/hqdefault.jpg",
+				publisher : "Gate Smashers",
+				time : "10:46",
+			},
+			{
+				topic : "Water jug problem",
+				video : "https://youtu.be/WtRWfbUZzZw?si=D5iGK-7Pb_P5K1YF",
+				thumbnail : "https://i.ytimg.com/vi/WtRWfbUZzZw/maxresdefault.jpg",
+				publisher : "Easy Engineering Classes",
+				time : "6:27",
+			},
+			{
+				topic : "Production System and control strategies",
+				video : "https://youtu.be/mBCj2D-H74E?si=IudBGSd8hnULeZax",
+				thumbnail : "https://i.ytimg.com/vi/mBCj2D-H74E/maxresdefault.jpg",
+				publisher : "Yachana Bhawsar",
+				time : "5:12",
+			},
+			{
+				topic : "Breadth First Search in Artificial Inteligence",
+				video : "https://youtu.be/qul0f79gxGs?si=ghZhRt8Vj-pC8Jw7",
+				thumbnail : "https://i.ytimg.com/vi/qul0f79gxGs/hqdefault.jpg",
+				publisher : "Gate Smashers",
+				time : "12:56",
+			},
+			{
+				topic : "Depth First Search in Artificial Inteligence",
+				video : "https://youtu.be/f8luGFRtshY?si=M-kI90dRrbERzzwM",
+				thumbnail : "https://i.ytimg.com/vi/f8luGFRtshY/hqdefault.jpg",
+				publisher : "Gate Smasher",
+				time : "9:12",
+			},
+			{
+				topic : "Traveling salesman problem",
+				video : "https://youtu.be/_xFm4ZWkkkg?si=HTbCXlGRsGYS3aw8",
+				thumbnail : "https://i.ytimg.com/vi/_xFm4ZWkkkg/maxresdefault.jpg",
+				publisher : "Easy Engineering Classes",
+				time : "7:15",
+			},
+			{
+				topic : "Hueristic Search",
+				video : "https://youtu.be/xaVTpt58bFI?si=etgkbSpFdhJ_KsFJ",
+				thumbnail : "https://i.ytimg.com/vi/xaVTpt58bFI/maxresdefault.jpg",
+				publisher : "Easy Engineering Classes",
+				time : "10:41",
+			},
+			{
+				topic : "Problem Chracteristics",
+				video : "https://youtu.be/jUGUQCUMO0o?si=Gn0PHluLEk8fxRf-",
+				thumbnail : "https://i.ytimg.com/vi/jUGUQCUMO0o/maxresdefault.jpg",
+				publisher : "Yachana Bhawsar",
+				time : "12:18",
+			},
+			{
+				topic : "Hill Climb Search Algorithm",
+				video : "https://youtu.be/z2y1sMrHKDw?si=iGymke2aDs0DiyQz",
+				thumbnail : "https://i.ytimg.com/vi/z2y1sMrHKDw/maxresdefault.jpg",
+				publisher : "Easy Engineering Classes",
+				time : "11:55"
+			},
+			{
+				topic : "Steapest Annealing",
+				video : "https://youtu.be/ct9rpyxbgaE?si=h1ptEMIuE1qzqNGu",
+				thumbnail : "https://i.ytimg.com/vi/ct9rpyxbgaE/maxresdefault.jpg",
+				publisher : "Easy Engineering Classes",
+				time : "6:20"
+			},
+			{
+				topic : "Steepest Ascent Hill Climbing",
+				video : "https://youtu.be/acsk3i7gS_U?si=PHUser-j3g_YKWt9",
+				thumbnail : "https://i.ytimg.com/vi/acsk3i7gS_U/hqdefault.jpg",
+				publisher : "Easy Engineering Classes",
+				time : "8:44"
+			},
+			{
+				topic : "Best First Search in Artificial Inteligence",
+				video : "https://youtu.be/ghNy6osXflQ?si=DrDtmrJ2u-l3wsQu",
+				thumbnail : "https://i.ytimg.com/vi/ghNy6osXflQ/maxresdefault.jpg",
+				publisher : "Yachana Bhawsar",
+				time : "8:13",
+			},
+			{
+				topic : "A* Search Algorithm",
+				video : "https://youtu.be/PzEWHH2v3TE?si=zZtk-2wt3h_GOsj6",
+				thumbnail : "https://i.ytimg.com/vi/PzEWHH2v3TE/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgQygsMA8=&rs=AOn4CLCkt2qE6ROz2hiPtzwRJ6bZWRtV8A",
+				publisher : "Education 4 u",
+				time : "6:37"
+			},
+			{
+				topic : "Constrain Satisfaction Problem",
+				video : "https://youtu.be/AgyCSmDVk5s?si=YcMTARc9V5rmiSqe",
+				thumbnail : "https://i.ytimg.com/vi/AgyCSmDVk5s/hqdefault.jpg",
+				publisher : "Gate Smashers",
+				time : "8:10"
+			},
+			{
+				topic : "Constrail Satisfaction algorithm",
+				video : "https://youtu.be/udOfKqeLVSg?si=TKvGRAvxY_cCv3XH",
+				thumbnail : "https://i.ytimg.com/vi/udOfKqeLVSg/hqdefault.jpg",
+				publisher : "Gate Smashers",
+				time : "10:39"
+			},
+			{
+				topic : "Means Ends Analysis",
+				video : "https://youtu.be/GRQGIyfQom0?si=chODVknunSPdSRJi",
+				thumbnail : "Nisha Mittal",
+				publisher : "Nisha Mittal",
+				time : "11:12"
+			},
+		]
+	},
+	// {
+	// 	name : "Unit-5",
+	// 	videos : []
+	// }
 ];
