@@ -335,7 +335,7 @@ export default [
 			{
 				topic : "Means Ends Analysis",
 				video : "https://youtu.be/GRQGIyfQom0?si=chODVknunSPdSRJi",
-				thumbnail : "Nisha Mittal",
+				thumbnail : "https://i.ytimg.com/vi/GRQGIyfQom0/hqdefault.jpg",
 				publisher : "Nisha Mittal",
 				time : "11:12"
 			},
