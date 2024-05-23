@@ -341,8 +341,175 @@ export default [
 			},
 		]
 	},
+	{
+		name : "Unit-5",
+		videos : [
+			{
+				topic : "Intro to prolog",
+				video : "https://youtu.be/vcQD2iPOc6Q?si=alt3qyhqGVmCB3Rx",
+				thumbnail : "https://i.ytimg.com/vi/vcQD2iPOc6Q/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "2:37"
+			},
+			{
+				topic : "What is prolog?",
+				video : "https://youtu.be/vcQD2iPOc6Q?si=lLM6Jr3hIR9cjUPj",
+				thumbnail : "https://i.ytimg.com/vi/vcQD2iPOc6Q/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "3:05"
+			},
+			{
+				topic : "Relation in prologs",
+				video : "https://youtu.be/eBDIYiNjbSk?si=TmxFN9RYtUQ6AHsO",
+				thumbnail : "https://i.ytimg.com/vi/eBDIYiNjbSk/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "2:39"
+			},
+			{
+				topic : "Facts, Rules and queries in Prolog",
+				video : "https://youtu.be/h9jLWM2lFr0?si=HmTy07oVeVLjGsZE",
+				thumbnail : "https://i.ytimg.com/vi/h9jLWM2lFr0/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "12:02"
+			},
+			{
+				topic : "Family tree in proglog | Rules and Facts example",
+				video : "https://youtu.be/QOt_ipXv9kQ?si=axW7rVVn3SP6KJw8",
+				thumbnail : "https://i.ytimg.com/vi/QOt_ipXv9kQ/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "13:19"
+			},
+			{
+				topic : "Recusion in prolog",
+				video : "https://youtu.be/2QqQAiNmycI?si=c09pWKtZ2LZiDIVQ",
+				thumbnail : "https://i.ytimg.com/vi/2QqQAiNmycI/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "8:41"
+			},
+			{
+				topic : "Data Object in prolog",
+				video : "https://youtu.be/JFswLmfa4NI?si=xIz3grgt93cev9kw",
+				thumbnail : "https://i.ytimg.com/vi/JFswLmfa4NI/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "2:59"
+			},
+			{
+				topic : "Atoms and numbers in prolog",
+				video : "https://youtu.be/iIq7Vmda_l8?si=Q1Aa4B5QCD7SHEEO",
+				thumbnail : "https://i.ytimg.com/vi/iIq7Vmda_l8/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "3:14"
+			},
+			{
+				topic : "Variable in prolog",
+				video : "https://youtu.be/0STTLN7a5eE?si=1MjkxuUCDqx7M1Yl",
+				thumbnail : "https://i.ytimg.com/vi/0STTLN7a5eE/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "2:22",
+			},
+			{
+				topic : "Structure in prolog",
+				video : "https://youtu.be/7FVTW_YIDfQ?si=S6cGL4lBrYYXtVaT",
+				thumbnail : "https://i.ytimg.com/vi/7FVTW_YIDfQ/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "3:32"
+			},
+			{
+				topic : "Matching",
+				video : "https://youtu.be/YhkbfyuJQLc?si=rOY5uwmIgwkyfYq9",
+				thumbnail : "https://i.ytimg.com/vi/YhkbfyuJQLc/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "2:27"
+			},
+			{
+				topic : "Representation of Lists in prolog",
+				video : "https://youtu.be/h9y6qcM6e20?si=tZNyezqslbnuklqD",
+				thumbnail : "https://i.ytimg.com/vi/h9y6qcM6e20/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "3:48"
+			},
+			{
+				topic : "List operation in prolog",
+				video : "https://youtu.be/JmUqld0O3dc?si=brwDbxd23wRqkCme",
+				thumbnail : "https://i.ytimg.com/vi/JmUqld0O3dc/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "4:06"
+			},
+			{
+				topic : "List concetination",
+				video : "https://youtu.be/3ilS5rR3z2s?si=GghhSaQZYMZsExzZ",
+				thumbnail : "https://i.ytimg.com/vi/3ilS5rR3z2s/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "3:22"
+			},
+			{
+				topic : "List items Add/Delete in prolog",
+				video : "https://youtu.be/HKrjjMEJBvw?si=U2gDhVjm-2HW1CAS",
+				thumbnail : "https://i.ytimg.com/vi/HKrjjMEJBvw/maxresdefault.jpg",
+				publisher : "Algorithms",
+				time : "25:10"
+			},
+			{
+				topic : "Sublist in Prolog",
+				video : "https://youtu.be/ZBjlSr-IoOc?si=kjzjYGpIpXhhBYni",
+				thumbnail : "https://i.ytimg.com/vi/ZBjlSr-IoOc/maxresdefault.jpg",
+				publisher : "Alogorithms",
+				time : "21:42"
+			},
+			{
+				topic : "Permutation in List in prolog",
+				video : "https://youtu.be/A7aPDPh1beI?si=CzbzScTBwqtAdsEV",
+				thumbnail : "https://i.ytimg.com/vi/A7aPDPh1beI/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "4:59"
+			},
+			{
+				topic : "Arithmetic operator in prolog",
+				video : "https://youtu.be/qydr-qs2RAc?si=ONs9HAqCPAo_29F9",
+				thumbnail : "https://i.ytimg.com/vi/qydr-qs2RAc/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "4:16",
+			},
+			{
+				topic : "Preventing backtracking in prolog",
+				video : "https://youtu.be/LYV-2Kyxfpg?si=TCVGOIq5lFzSqftq",
+				thumbnail : "https://i.ytimg.com/vi/LYV-2Kyxfpg/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "9:04",
+			},
+			{
+				topic : "Example of cut in prolog (example 1)",
+				video : "https://youtu.be/n4cm2zZb1Xo?si=xTPaJ-s4m5KiQ1qV",
+				thumbnail : "https://i.ytimg.com/vi/n4cm2zZb1Xo/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "8:48",
+			},
+			{
+				topic : "Negation as failure",
+				video : "https://youtu.be/EegjZr0kRXU?si=N9kLOFNd3GhSzVJM",
+				thumbnail : "https://i.ytimg.com/vi/EegjZr0kRXU/maxresdefault.jpg",
+				publisher : "Tutorialpoint",
+				time : "2:59",
+			},
+		]
+	},
 	// {
-	// 	name : "Unit-5",
-	// 	videos : []
+	// 	name : "Unit-6",
+	// 	videos :[
+	// 		{
+	// 			topic : "Natural Language Processing - Introduction",
+	// 			video : "https://youtu.be/bPpwZxasJo0?si=ruDjhRWrUMnAu5Uz",
+	// 			thumbnail : "https://i.ytimg.com/vi/bPpwZxasJo0/hqdefault.jpg",
+	// 			publisher : "Gate Smasher",
+	// 			time : "17:17",
+	// 		},
+	// 		// {
+	// 		// 	topic : "",
+	// 		// 	video : "",
+	// 		// 	thumbnail : "",
+	// 		// 	publisher : "",
+	// 		// 	time : "",
+	// 		// },
+	// 	]
 	// }
 ];
