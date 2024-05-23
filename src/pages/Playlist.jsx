@@ -13,9 +13,8 @@ function Playlist() {
 				<NotificationMessage msg="unit-2 added" />
 			) : null}
 			{id === "AI" ? (
-				<NotificationMessage msg="unit-5 added" />
+				<NotificationMessage msg="added unit-6" />
 			) : null}
-
 			<Link className="btn w-fit" to="/">
 				<ArrowBackIcon />
 				back

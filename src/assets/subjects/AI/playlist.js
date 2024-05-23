@@ -493,23 +493,37 @@ export default [
 			},
 		]
 	},
-	// {
-	// 	name : "Unit-6",
-	// 	videos :[
-	// 		{
-	// 			topic : "Natural Language Processing - Introduction",
-	// 			video : "https://youtu.be/bPpwZxasJo0?si=ruDjhRWrUMnAu5Uz",
-	// 			thumbnail : "https://i.ytimg.com/vi/bPpwZxasJo0/hqdefault.jpg",
-	// 			publisher : "Gate Smasher",
-	// 			time : "17:17",
-	// 		},
-	// 		// {
-	// 		// 	topic : "",
-	// 		// 	video : "",
-	// 		// 	thumbnail : "",
-	// 		// 	publisher : "",
-	// 		// 	time : "",
-	// 		// },
-	// 	]
-	// }
+	{
+		name : "Unit-6",
+		videos :[
+			{
+				topic : "Natural Language Processing - Introduction",
+				video : "https://youtu.be/bPpwZxasJo0?si=ruDjhRWrUMnAu5Uz",
+				thumbnail : "https://i.ytimg.com/vi/bPpwZxasJo0/hqdefault.jpg",
+				publisher : "Gate Smasher",
+				time : "17:17",
+			},
+			{
+				topic : "Grammer for Natural Language Processing",
+				video : "https://youtu.be/l7IYZLX-Uro?si=snSiQvWKoakTdaL8",
+				thumbnail : "https://i.ytimg.com/vi/l7IYZLX-Uro/maxresdefault.jpg",
+				publisher : "Binod Suman Academy",
+				time : "14:01",
+			},
+			{
+				topic : "Top down | bottom up parsing",
+				video : "https://youtu.be/fqqe0JkUF0o?si=bjZgVgDCUyR-II7K",
+				thumbnail : "https://i.ytimg.com/vi/fqqe0JkUF0o/hqdefault.jpg",
+				publisher : "Binod Suman Academy",
+				time : "8:15",
+			},
+			{
+				topic : "Deterministic and non deterministic parser",
+				video : "https://youtu.be/rDBafyxYCW8?si=xkAZUbsaVhPcx7FT",
+				thumbnail : "https://i.ytimg.com/vi/rDBafyxYCW8/maxresdefault.jpg",
+				publisher : "Knowledge Gate",
+				time : "10:49",
+			},
+		]
+	},
 ];
