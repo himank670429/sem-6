@@ -9,16 +9,14 @@ function Playlist() {
 	let playlist = data.subjects.filter((item) => item.route === id)[0].playlist;
 	return (
 		<div className="px-2 sm:px-4 md:py-8 flex flex-col gap-4">
-			{id === "DM" ? (
-				<NotificationMessage msg="unit-2 added" />
-			) : null}
-			{id === "AI" ? (
-				<NotificationMessage msg="added unit-6" />
-			) : null}
 			<Link className="btn w-fit" to="/">
 				<ArrowBackIcon />
 				back
 			</Link>
+			{id === "DM" ? <NotificationMessage msg="unit-3,4 added" /> : null}
+			{id === "AI" || id === "CG" ? (
+				<NotificationMessage msg="Kesa gya exam?" />
+			) : null}
 			{playlist.map((item, index) => (
 				<VideoItem key={index} {...item} index={index} />
 			))}

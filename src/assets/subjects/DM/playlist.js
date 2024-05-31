@@ -44,7 +44,7 @@ export default [
 		],
 	},
 	{
-		name: "Unit-2",
+		name: "Unit-2 Data Mining Techniques",
 		videos: [
 			{
 				topic: "Data Attributes",
@@ -150,16 +150,112 @@ export default [
 			},
 		],
 	},
-	// {
-	// 	name: "Unit-3",
-	// 	videos: [
-	// 		{
-	// 			topic : "",
-	// 			video : "",
-	// 			thumbnail : "",
-	// 			publisher : "",
-	// 			time : "",
-	// 		},
-	// 	],
-	// },
+	{
+		name: "Unit-3 Classification",
+		videos: [
+			{
+				topic : "classification in Data Mining, Preliminaries and General Approach",
+				video : "https://youtu.be/lLg6F_TY8bw?si=8wItUsVd2JxQP3qL",
+				thumbnail : "https://i.ytimg.com/vi/lLg6F_TY8bw/hqdefault.jpg",
+				publisher : "CS Lojix",
+				time : "18:27",
+			},
+			{
+				topic : "Descision tree induction",
+				video : "https://youtu.be/mb3N4_pYtqE?si=iVy8n7M5Z2uclE-4",
+				thumbnail : "https://i.ytimg.com/vi/mb3N4_pYtqE/maxresdefault.jpg",
+				publisher : "Trouble- Free",
+				time : "6:53",
+			},
+			{
+				topic : "Hunt's Algorithm",
+				video : "https://youtu.be/PQbz0j56T3A?si=X2hoVAbbQJTWiObI",
+				thumbnail : "https://i.ytimg.com/vi/PQbz0j56T3A/maxresdefault.jpg",
+				publisher : "CS Lojix",
+				time : "17:42",
+			},
+			{
+				topic : "Attribute and it's Types",
+				video : "https://youtu.be/kGxHkK939v4?si=Z1sPkYv0elr6FbZV",
+				thumbnail : "https://i.ytimg.com/vi/kGxHkK939v4/maxresdefault.jpg",
+				publisher : "CS Lojix",
+				time : "16:25",
+			},
+			{
+				topic : "Measures for Selecting the Best Split",
+				video : "https://youtu.be/wefc_36d5mU?si=FsIkK4xEp1YIHFQr",
+				thumbnail : "https://i.ytimg.com/vi/wefc_36d5mU/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgYShaMA8=&rs=AOn4CLAsRvNnTC4UuXHx_HgECKqwfh6Ypw",
+				publisher : "Mahesh Huddar",
+				time : "13:05",
+			},
+			{
+				topic : "How to find Entropy and information gain",
+				video : "https://youtu.be/F00X97p5DfI?si=6N6o8NjhLAQczIQQ",
+				thumbnail : "https://i.ytimg.com/vi/F00X97p5DfI/hqdefault.jpg",
+				publisher : "Mahesh Huddar",
+				time : "13:11",
+			},
+			{
+				topic : "Continious Attribute split and Gini index",
+				video : "https://youtu.be/41SHQjwuQ5o?si=R6HMDYTvznk_fLsH",
+				thumbnail : "https://i.ytimg.com/vi/41SHQjwuQ5o/hqdefault.jpg",
+				publisher : "Mahesh Huddar",
+				time : "6:44",
+			},
+			{
+				topic : "Holdout Method performance evaluation",
+				video : "https://youtu.be/Mu8Ubp258QI?si=GG8HoF_cefCklgbM",
+				thumbnail : "https://i.ytimg.com/vi/Mu8Ubp258QI/hqdefault.jpg",
+				publisher : "5 Minute Engineering",
+				time : "8:03",
+			},
+		],
+	},
+	{
+		name : "Unit-4 Classification",
+		videos : [
+			{
+				topic : "Rule Based classifier",
+				video : "https://youtu.be/fmZaVTpRO-Q?si=Rds3UJD1UYyfBqmE",
+				thumbnail : "https://i.ytimg.com/vi/fmZaVTpRO-Q/maxresdefault.jpg",
+				publisher : "RANJI RAJ",
+				time : "10:09",
+			},
+			{
+				topic : "Rule Based Ordering",
+				video : "https://youtu.be/qRs_HJu3Uxs?si=TzBj_6owNxKRMpfq",
+				thumbnail : "https://i.ytimg.com/vi/qRs_HJu3Uxs/hqdefault.jpg",
+				publisher : "Manoj Taleka",
+				time : "3:38",
+			},
+			{
+				topic : "Nearest Neighbour Classifier",
+				video : "https://youtu.be/CJjSPCslxqQ?si=Z1Tih-hz1nhofopg",
+				thumbnail : "https://i.ytimg.com/vi/CJjSPCslxqQ/hqdefault.jpg",
+				publisher : "% Minute Engineering",
+				time : "7:57",
+			},
+			{
+				topic : "Bayes Theorem",
+				video : "https://youtu.be/Fv_LGQKgWi0?si=kSwjkpn3NGpnUBlw",
+				thumbnail : "https://i.ytimg.com/vi/Fv_LGQKgWi0/hqdefault.jpg",
+				publisher : "5 Minutes Engineering",
+				time : "11:07",
+			},
+			{
+				topic : "Naive Bayes Classifier",
+				video : "https://youtu.be/mzPHmNm_NrM?si=XmMv4M3a2awgW1Dk",
+				thumbnail : "https://i.ytimg.com/vi/mzPHmNm_NrM/hqdefault.jpg",
+				publisher : "5 Minutes Engineering",
+				time : "10:47",
+			},
+			{
+				topic : "Confusion Matrix",
+				video : "https://youtu.be/_CGTbkHwUHQ?si=MTKM_2iY3OPQqQgw",
+				thumbnail : "https://i.ytimg.com/vi/_CGTbkHwUHQ/hqdefault.jpg",
+				publisher : "Mahesh Huddar",
+				time : "5:49",
+			},
+		]
+	}
 ];

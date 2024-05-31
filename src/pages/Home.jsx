@@ -4,7 +4,11 @@ import { NotificationMessage } from "../components/Message";
 function Home() {
 	return (
 		<>
-			<NotificationMessage msg={"AI playlist is being updated, do check it out"} />
+			<div className="mx-4">
+				<NotificationMessage
+					msg={"DM Playlist abhi baki hai 😅, sorry for the inconvenience"}
+				/>
+			</div>
 			{data.subjects.map((item, index) => (
 				<SubjectSection {...item} key={index} index={index + 1} />
 			))}
