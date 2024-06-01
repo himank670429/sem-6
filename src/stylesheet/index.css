@@ -5,6 +5,9 @@
 .btn{
     @apply flex items-center flex-nowrap gap-1 bg-purple px-4 py-2 rounded-md text-white;
 }
+.btn-2{
+    @apply flex items-center flex-nowrap gap-1 border-purple border-2 text-purple px-4 py-2 rounded-md ;
+}
 
 body::-webkit-scrollbar{
     display: none;

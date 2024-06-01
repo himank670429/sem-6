@@ -6,7 +6,7 @@ function Home() {
 		<>
 			<div className="mx-4">
 				<NotificationMessage
-					msg={"DM Playlist abhi baki hai 😅, sorry for the inconvenience"}
+					msg={"DM playlist is complete finally"}
 				/>
 			</div>
 			{data.subjects.map((item, index) => (

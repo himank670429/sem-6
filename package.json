@@ -8,7 +8,8 @@
     "build": "vite build",
     "host": "vite --host",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "crawler" : "cd ../web-crwaler/back-end && npm start"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
