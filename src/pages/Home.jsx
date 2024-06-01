@@ -5,9 +5,9 @@ function Home() {
 	return (
 		<>
 			<div className="mx-4">
-				<NotificationMessage
+				{/* <NotificationMessage
 					msg={"DM playlist is complete finally"}
-				/>
+				/> */}
 			</div>
 			{data.subjects.map((item, index) => (
 				<SubjectSection {...item} key={index} index={index + 1} />
