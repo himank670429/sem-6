@@ -13,7 +13,7 @@ function Playlist() {
 				<ArrowBackIcon />
 				back
 			</Link>
-			{id === "DM" ? <NotificationMessage msg="unit-3,4 added" /> : null}
+			{id === "DM" ? <NotificationMessage msg="unit-6 added" /> : null}
 			{id === "AI" || id === "CG" ? (
 				<NotificationMessage msg="Kesa gya exam?" />
 			) : null}

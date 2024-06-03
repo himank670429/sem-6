@@ -315,4 +315,72 @@ export default [
 			},
 		],
 	},
+	{
+		name : "Unit-6 Clustering",
+		videos : [
+			{
+				topic : "Intro to Clustering",
+				video : "https://youtu.be/jovMf2hSDTw?si=zct-i2E5B67tOkRE",
+				thumbnail : "https://i.ytimg.com/vi/jovMf2hSDTw/maxresdefault.jpg",
+				publisher : "RANJI RAJ",
+				time : "9:19",
+			},
+			{
+				topic : "Type of clustering",
+				video : "https://youtu.be/Uy4jc26k_tU?si=bDrp_kVo3Mcg7Qxm",
+				thumbnail : "https://i.ytimg.com/vi/Uy4jc26k_tU/maxresdefault.jpg",
+				publisher : "CS Logix",
+				time : "15:01",
+			},
+			{
+				topic : "Types of Clusters",
+				video : "https://youtu.be/8OCHaaW3f0s?si=IIR25_iGPu3iB6xe",
+				thumbnail : "https://i.ytimg.com/vi/8OCHaaW3f0s/hqdefault.jpg",
+				publisher : "Frustated Engineer",
+				time : "3:12",
+			},
+			{
+				topic : "K Means CLustering",
+				video : "https://youtu.be/CLKW6uWJtTc?si=oo80irQgrSKFJ47_",
+				thumbnail : "https://i.ytimg.com/vi/CLKW6uWJtTc/hqdefault.jpg",
+				publisher : "5 Minute Engineering",
+				time : "7:24",
+			},
+			{
+				topic : "K-Means Issue",
+				video : "https://youtu.be/W68Nvmlbrws?si=bTt9AsgQ0Sn60Cxz",
+				thumbnail : "https://i.ytimg.com/vi/W68Nvmlbrws/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHQBoAC4AOKAgwIABABGGUgZShlMA8=&rs=AOn4CLA2SMLcaa5LolVe0UeJ7h4VA8t74A",
+				publisher : "RVIT",
+				time : "29:28",
+			},
+			{
+				topic : "Heirarchical Clustering",
+				video : "https://youtu.be/7enWesSofhg?si=e-4ZPYqvoGUC79O_",
+				thumbnail : "https://i.ytimg.com/vi/7enWesSofhg/hqdefault.jpg",
+				publisher : "5 Minute Engineering",
+				time : "7:10",
+			},
+			{
+				topic : "Agglomerative clustering  (part-1)",
+				video : "https://youtu.be/EFhcDnw7RGY?si=6Xc1bwdvOWeXgrS1",
+				thumbnail : "https://i.ytimg.com/vi/EFhcDnw7RGY/hqdefault.jpg",
+				publisher : "5 Minute Engineering",
+				time : "11:19",
+			},
+			{
+				topic : "Agglomerative clustering  (part-2)",
+				video : "https://youtu.be/G_Ob1k28ZJo?si=n-bcZ6QXn9L5e8_H",
+				thumbnail : "https://i.ytimg.com/vi/G_Ob1k28ZJo/hqdefault.jpg",
+				publisher : "5 Minute Engineering",
+				time : "7:47",
+			},
+			{
+				topic : "DB Scan",
+				video : "https://youtu.be/ZkyQ4rNIFvE?si=taI47Biq52NsGoOU",
+				thumbnail : "https://i.ytimg.com/vi/ZkyQ4rNIFvE/hqdefault.jpg",
+				publisher : "5 Minute Engineering",
+				time : "12:27",
+			},
+		]
+	}
 ];
